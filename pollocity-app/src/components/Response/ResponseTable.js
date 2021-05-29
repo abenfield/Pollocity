@@ -8,17 +8,10 @@ import {Doughnut} from "react-chartjs-2";
 
 export default function ResponseTable(props){
 
-
-
     const columns = [
         { field: 'response', headerName: 'Response', width: 150 },
         { field: 'created_at', headerName: 'Date Created', width: 250 }
     ];
-
-
-
-
-
 
 
     function  countResponses(responseObject) {
@@ -54,7 +47,6 @@ let found = null;
 
 
 }
-
 
     let initalArray = [];
 
@@ -93,10 +85,6 @@ let found = null;
         })();
     }, []);
 
-
-console.log(label);
-
-
     return (
 
         <div style={{ height: 200, width: '100%' }}>
@@ -106,8 +94,6 @@ console.log(label);
                 <Doughnut data={
 
                     {
-
-
                         labels: label,
                         datasets: [
                             {
@@ -120,8 +106,6 @@ console.log(label);
                                 ],
                             },
                         ],
-
-
                     }} type='doughtnut'/>
         </div>
         </div>
