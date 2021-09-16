@@ -5,9 +5,9 @@ import {
     Link
   } from "react-router-dom";
 
-import { default as Home } from '../pages/Home/Home';
-import { default as Test } from '../pages/Test/Test';
-import { NoMatch } from '../pages/404/NoMatch';
+import { default as Home } from '../../pages/Home/Home';
+import { default as Test } from '../../pages/Test/Test';
+import { NoMatch } from '../../pages/404/NoMatch';
 import { IconType } from 'react-icons';
 import {
   FiHome,

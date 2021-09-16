@@ -6,9 +6,9 @@ import {
     Link
 } from "react-router-dom";
 
-import Navigation from '../Navigation/Navigation';
+import Navigation from './Navigation/Navigation';
 import { ChakraProvider } from '@chakra-ui/react';
-import { Routes } from '../Navigation/Routes';
+import { Routes } from './Navigation/Routes';
 
 
 function Scaffolding() {
