@@ -1,0 +1,19 @@
+{
+    "confirm-password": "Confirm Password",
+    "email": "Email",
+    "first-name": "First Name",
+    "invalid-email-address": "Invalid email address",
+    "last-name": "Last Name",
+    "must-be-35-characters-or-less": "Must be 35 characters or less",
+    "password": "Password",
+    "register-to-start-listing": "Register to start listing",
+    "required": "Required",
+    "submit": "Submit",
+    "email-address-is-required": "Email address is required",
+    "first-name-is-required": "First name is required",
+    "last-name-is-required": "Last name is required",
+    "password-is-required": "Password is required",
+    "password-must-be-at-least-8-characters": "Password must be at least 8 characters",
+    "passwords-must-match": "Passwords must match",
+    "email-address-already-in-use": "Email address already in use"
+}

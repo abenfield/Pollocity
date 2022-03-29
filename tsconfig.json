@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": "./resources/js",
+    "paths": {
+      "components/*": ["components/*"],
+      "shared/*": ["shared/*"],
+      "routes/*": ["routes/*"],
+      "utilities/*": ["utilities/*"]
+    },
     "outDir": "./dist/",
     "noImplicitAny": false,
     "module": "es6",
@@ -7,5 +14,8 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node"
-  }
+  },
+  "include": [
+    "./resources/js/*"
+  ]
 }

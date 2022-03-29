@@ -1,5 +1,7 @@
 const mix = require('laravel-mix');
-
+const path = require('path/posix');
+const { parseJsonText } = require('typescript');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -25,6 +27,7 @@ mix.js('resources/js/app.tsx', 'public/js')
           ]
         },
         resolve: {
+            plugins: [new TsconfigPathsPlugin()],
             extensions: ["*",".js",".jsx",".ts",".tsx"]
         }
       });
